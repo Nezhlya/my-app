@@ -1,5 +1,6 @@
 import React from "react";
-import "./Title.scss"
+import "./Title.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Title(){
     return (
