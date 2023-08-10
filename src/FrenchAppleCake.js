@@ -6,8 +6,14 @@ export default function FrenchAppleCake() {
   return (
     <div className="FrenchAppleCake">
       <div className="container-fluid">
-      
-        <Body />
+        <div className="page1"></div>
+        <div className="page2wrapper">
+          <div className="page2">
+            <div className="content">
+              < Body />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

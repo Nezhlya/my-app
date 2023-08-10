@@ -11,13 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-:root {
-	box-sizing: border-box;
-}
-*, ::before, ::after {
-	box-sizing: inherit;
-	text-decoration: none;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+
