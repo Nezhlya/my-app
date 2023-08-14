@@ -3,26 +3,18 @@
 .page1{
 	width: 100%;
 	height:100vh;
-
+background: url("cover.jpg");
+	background-size: cover;
+    background-position: bottom;
+	background-attachment: fixed;     
 }
 .page2{
 	width: 100%;
 	height:70vh;
-}
-
-
-.page1{
-    background: url("cover.jpg");
-	background-size: cover;
-    background-position: bottom;
-	background-attachment: fixed;                
-}
-
-.page2{
 	background-color: black;
 	opacity: 0.75;
-	
 }
+
 .page2wrapper{
         background: url("cover.jpg");
 background-position: bottom;
