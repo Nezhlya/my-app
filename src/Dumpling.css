@@ -3,20 +3,20 @@
 .page1{
 	width: 100%;
 	height:100vh;
-background: url("cover.jpg");
+background: url("images/cover.jpg");
 	background-size: cover;
     background-position: bottom;
 	background-attachment: fixed;     
 }
 .page2{
 	width: 100%;
-	height:70vh;
+	height:100%;
 	background-color: black;
 	opacity: 0.75;
 }
 
 .page2wrapper{
-        background: url("cover.jpg");
+        background: url("images/cover.jpg");
 background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;
@@ -24,6 +24,7 @@ background-position: bottom;
 .content{
 	color: white;
 	padding:12%;
+	
 }
 
 

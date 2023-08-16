@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Action from "./Action";
 import { ReactComponent as DownArrow } from "../assets/down-arrow.svg";
 import { ReactComponent as UpArrow } from "../assets/up-arrow.svg";
-
+import "../styles.css";
 const Comment = ({
   handleInsertNode,
   handleEditNode,
