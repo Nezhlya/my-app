@@ -1,27 +1,21 @@
-import React from 'react';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "./Card";
-import "./styles.css"
-
-export default function Recipes(){
-    return (
-      <Container className="text-center">
-        <Row className="row">
-          <Col className='col'>
-            <Card />
-          </Col>
-          <Col>
-            <Card />
-          </Col>
-          <Col>
-            <Card />
-          </Col>
-          <Col>
-            <Card />
-          </Col>
-        </Row>
-      </Container>
-    );
-}
+let Recipes = [
+  {
+    image: './images/dumpling1.jpg',
+    name: `1`,
+    description: `2`,
+    url: `https://steamykitchen.com/41178-best-chinese-potsticker-dumplings-recipe.html`,
+  },
+  {
+    image: './images/dumpling2.jpg',
+    name: `4`,
+    description: `5`,
+    url: `6`,
+  },
+  {
+    image: './images/dumpling2.jpg',
+    name: `7`,
+    description: `8`,
+    url:'9',
+  },
+];
+export default Recipes;
