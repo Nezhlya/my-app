@@ -1,9 +1,7 @@
 import React from "react";
-import RecipesData from "./Recipes";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Body.css";
-import RecipesCard from "./RecipesCard";
-
+import RecipeCard from "./RecipeCard";
 
 export default function Body() {
   return (
@@ -22,17 +20,12 @@ export default function Body() {
           <a href="https://en.wikipedia.org/wiki/Dumpling"> Wikipedia.</a>
         </p>
       </p>
-      <div className="container">
+      <div className="recipeCards ">
+      <div className="col">
         <div className="row">
-              {RecipesData.map((prod) => (
-
-            <div className="col">
-                      <RecipesCard key={prod.name} name={prod.name} description={prod.description} url={prod.url} img={prod.image}/>
-                      
-            </div>
-          ))}
+          <RecipeCard />
         </div>
-        </div>
+      </div></div>
     </div>
   );
 }
