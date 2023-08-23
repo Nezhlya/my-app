@@ -1,7 +1,7 @@
 
 .commentContainer {
   margin-top: 6px;
-  background-color: #d3d3d3e0;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
@@ -12,7 +12,7 @@
 }
 
 .commentContainer:hover {
-  background-color: #d3d3d3bf;
+  background-color: white;
 }
 
 .inputContainer {
@@ -30,12 +30,12 @@
   margin: 20px 0 0px 0;
   padding: 5px;
   display: flex;
-  border: 1px solid lightgray;
+  border: 1px solid white;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #e7e7e7;
+  background-color: white;
 }
 
 .col{
@@ -61,7 +61,7 @@
 
 .comment {
   color: black;
-  background-color: whitesmoke;
+  background-color: white;
   letter-spacing: 0.8px;
   margin: 20px 0 0px 0;
   font-size: 16px;

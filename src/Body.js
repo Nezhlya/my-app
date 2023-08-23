@@ -19,6 +19,10 @@ export default function Body() {
           <a href="https://en.wikipedia.org/wiki/Dumpling"> Wikipedia.</a>
         </p>
       </p>
+      <h3>
+        Dumplings are not only delicious but also have some fascinating and fun
+        facts associated with them from around the world:
+      </h3>
       <ul>
         <li>
           Dumplings are found in cuisines across the globe, from Chinese jiaozi
