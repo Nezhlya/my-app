@@ -3,9 +3,9 @@
 .page1{
 	width: 100%;
 	height:100vh;
-background: url("images/cover.jpg");
+background: url("images/cover1.jpg");
 	background-size: cover;
-    background-position: bottom;
+    background-position: top;
 	background-attachment: fixed;     
 }
 .page2{
@@ -16,8 +16,8 @@ background: url("images/cover.jpg");
 }
 
 .page2wrapper{
-        background: url("images/cover.jpg");
-background-position: bottom;
+        background: url("images/cover1.jpg");
+background-position: top;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -26,5 +26,7 @@ background-position: bottom;
 	padding:12%;
 	
 }
-
+ .commentBox{
+	margin:20px;
+ }
 
