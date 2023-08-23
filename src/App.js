@@ -6,7 +6,7 @@ import Dumpling from "./Dumpling.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className="font-family">
       <header className="App-header">
         <Dumpling />
         

@@ -98,6 +98,7 @@ export default function Body() {
       <div className="recipeCards ">
         <div className="col">
           <div className="row">
+            <h2 className="recipes">Recipes</h2>
             <RecipeCard />
           </div>
         </div>

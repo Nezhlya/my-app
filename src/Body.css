@@ -2,6 +2,14 @@
     background-color:tan;
     border-radius: 10px;
 }
+.recipes{
+    color:black;
+   text-align: center;
+   font-weight: 600;
+ letter-spacing: 5px;
+
+   
+}
 
 body {
 	background:white;
