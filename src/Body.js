@@ -7,7 +7,7 @@ export default function Body() {
   return (
     <div>
       <h1>Dumplings</h1>
-      <p>
+      <p className="intro">
         Chinese dumplings, or jiaozi, are one of the most historic foods in
         existence. Much of the food we eat today has only been around for a few
         hundred years, but the Chinese have made jiaozi for over 2000 years.

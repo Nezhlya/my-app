@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Comment from "./components/Comment";
 import useNode from "./hooks/useNode";
-import "./styles.css";
+import "./components/styles.css";
 
 const comments = {
   id: 1,

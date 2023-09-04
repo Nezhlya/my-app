@@ -3,6 +3,7 @@ import dumpling4 from "./images/dumpling4.jpg";
 import dumpling2 from "./images/dumpling2.jpg";
 import dumpling5 from "./images/dumpling5.jpg";
 import Card from "react-bootstrap/Card";
+import "./Body.css";
 
 
 export default function RecipeCard() {
@@ -15,7 +16,7 @@ const CardView = ({
   imgsrc = "default_holder.js/100px180",
   link = "default_holder",
 }) => (
-  <Card style={{ width: "18rem" }} className="mx-auto m-4">
+  <Card style={{ width: "20rem" }} className="mx-auto m-4">
     <Card.Img variant="top" src={imgsrc} className="mx-auto m-2"/>
     <Card.Body>
       <Card.Title>{title}</Card.Title>

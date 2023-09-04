@@ -10,9 +10,31 @@
 
    
 }
+h1{
+  font-weight: 800;
+  font-size: 36px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+  font-weight: 600;
+}
+.intro{
+  font-size: 22px;
+}
+li{
+  font-size: 20px;
+}
+a{
+  color:crimson;
+  font-size: 26px;;
+}
 
 body {
 	background:white;
+  
 }
 
 

@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Action from "./Action";
 import { ReactComponent as DownArrow } from "./assets/down-arrow.svg";
 import { ReactComponent as UpArrow } from "./assets/up-arrow.svg";
-import "../styles.css";
+import "./styles.css";
 const Comment = ({
   handleInsertNode,
   handleEditNode,
@@ -125,7 +125,7 @@ const Comment = ({
         )}
       </div>
 
-      <div style={{ display: expand ? "block" : "none", paddingLeft: 25 }}>
+      <div style={{ display: expand ? "block" : "none", paddingLeft: 15 }}>
         {showInput && (
           <div className="inputContainer">
             <input
